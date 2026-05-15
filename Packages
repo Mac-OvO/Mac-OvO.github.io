@@ -1,0 +1,19 @@
+Package: com.macovo.example-arm64
+Name: Mac-OvO Example Tweak (arm64)
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Mac-OvO
+Description: 示例包（arm64）
+Section: Tweaks
+Priority: optional
+Depiction: https://mac-ovo.github.io/
+
+Package: com.macovo.example-arm64e
+Name: Mac-OvO Example Tweak (arm64e)
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Mac-OvO
+Description: 示例包（arm64e）
+Section: Tweaks
+Priority: optional
+Depiction: https://mac-ovo.github.io/
