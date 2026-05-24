@@ -14,6 +14,41 @@ Description: Filza Crack
 Author: Netskao
 Name: Filza Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+Package: com.25mao.miyou.rootless
+Version: 3.9-5
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs-roothide/com.25mao.miyou.rootless_3.9-5_iphoneos-arm64e.deb
+Size: 13762574
+MD5sum: 09035ef4e71e8b9d4aae6f20d84f64f8
+SHA1: 2789c6c2e99ca8b676020d0f2f2c134d78bc305a
+SHA256: fdecad54237ef039ff6b1c4d0006edcfb8c15e12f36aa246db2d879e7170e332
+Section: roothide
+Priority: optional
+Description: 微信助手-Rootless版
+Author: Mao
+Name: 微信助手-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.25mao.wcplugins.rootless
+Version: 0.1-6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs-roothide/com.25mao.wcplugins.rootless_0.1-6_iphoneos-arm64e-1.deb
+Size: 17972
+MD5sum: 0ffc994b88d66ccc1d8e9f2a91f053ba
+SHA1: e8bda89fd44402e8b49458574005e602e650adf4
+SHA256: 5162078dc33adc55e74b318f1e250e04d236b2581357b21ec366c0632796bd30
+Section: roothide
+Priority: optional
+Description: 插件管理-Rootless
+Author: Mao
+Name: 微信插件管理-Rootless
+Sponsor: admin@25mao.com
 
 Package: com.netskao.filzacrack
 Version: 1.1-9
@@ -32,3 +67,20 @@ Description: Filza Crack
 Author: Netskao
 Name: Filza Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+
+Package: com.tencent.themebox
+Version: 2.3.4
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs-roothide/com.tencent.themebox_2.3.4_iphoneos-arm64e.deb
+Size: 15772472
+MD5sum: 6dd93e9af981806b8d27d88a8a68264c
+SHA1: 49904adf368601fa1ff9c8a9079dc1e0bd9e1775
+SHA256: d931e6cdf5a6c18429850a09ac68a818f2629e80f4e3c218f9bbf3e1e8c5eb7a
+Section: roothide
+Description: 微信主题盒子
+Author: Mao
+Name: 主题盒子
+Sponsor: admin@25mao.com
