@@ -30,22 +30,68 @@ jobs:
 
           if ls debs-rootless/*.deb >/dev/null 2>&1; then
             dpkg-scanpackages -m debs-rootless /dev/null > Packages-rootless
-            sed -i 's/^Section: .*/Section: Rootless/' Packages-rootless
           else
             touch Packages-rootless
           fi
 
           if ls debs-roothide/*.deb >/dev/null 2>&1; then
             dpkg-scanpackages -m debs-roothide /dev/null > Packages-roothide
-            sed -i 's/^Section: .*/Section: rootHide/' Packages-roothide
           else
             touch Packages-roothide
           fi
+
+          python3 <<'PY'
+          from pathlib import Path
+
+          def force_section(path, section_name):
+              p = Path(path)
+              text = p.read_text(errors="ignore")
+              if not text.strip():
+                  return
+
+              blocks = text.strip().split("\n\n")
+              new_blocks = []
+
+              for block in blocks:
+                  lines = block.splitlines()
+                  has_section = False
+                  new_lines = []
+
+                  for line in lines:
+                      if line.startswith("Section:"):
+                          new_lines.append(f"Section: {section_name}")
+                          has_section = True
+                      else:
+                          new_lines.append(line)
+
+                  if not has_section:
+                      new_lines.append(f"Section: {section_name}")
+
+                  new_blocks.append("\n".join(new_lines))
+
+              p.write_text("\n\n".join(new_blocks) + "\n")
+
+          force_section("Packages-rootless", "Rootless")
+          force_section("Packages-roothide", "roothide")
+          PY
 
           cat Packages-rootless Packages-roothide > Packages
 
           gzip -kf Packages
           bzip2 -kf Packages
+
+      - name: Create Release
+        run: |
+          cat > Release <<'EOF'
+          Origin: Mac-OvO
+          Label: Mac-OvO
+          Suite: stable
+          Version: 1.0
+          Codename: stable
+          Architectures: iphoneos-arm64 iphoneos-arm64e
+          Components: main
+          Description: Mac-OvO Sileo Repository
+          EOF
 
       - name: Create index.html
         run: |
@@ -68,6 +114,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add Packages Packages.gz Packages.bz2 index.html
+          git add Packages Packages.gz Packages.bz2 Release index.html
           git commit -m "Update Sileo Packages" || echo "No changes"
           git push
