@@ -25,7 +25,7 @@ Size: 2109726
 MD5sum: a176dfbab7ea7df920031a478586b008
 SHA1: 65363c071f38f4c0dbcf6d6e6a76d6257d4c49a0
 SHA256: e05475add36333d7c7b34fe15189f550d14e7c2ab29eed22789e06bae32d623f
-Section: roothide
+Section: RootHide
 Priority: optional
 Description: 斗图助手-Rootless
 Author: Mao
@@ -43,7 +43,7 @@ Size: 13762574
 MD5sum: 09035ef4e71e8b9d4aae6f20d84f64f8
 SHA1: 2789c6c2e99ca8b676020d0f2f2c134d78bc305a
 SHA256: fdecad54237ef039ff6b1c4d0006edcfb8c15e12f36aa246db2d879e7170e332
-Section: roothide
+Section: RootHide
 Priority: optional
 Description: 微信助手-Rootless版
 Author: Mao
@@ -61,7 +61,7 @@ Size: 17972
 MD5sum: 0ffc994b88d66ccc1d8e9f2a91f053ba
 SHA1: e8bda89fd44402e8b49458574005e602e650adf4
 SHA256: 5162078dc33adc55e74b318f1e250e04d236b2581357b21ec366c0632796bd30
-Section: roothide
+Section: RootHide
 Priority: optional
 Description: 插件管理-Rootless
 Author: Mao
@@ -80,7 +80,7 @@ Size: 39676
 MD5sum: 8511e41fe0108ab149cbe4240d940e92
 SHA1: 29552486352278a53d84f6c626fc7066ea401e24
 SHA256: 8d48c206cd20867e694659d6f2b4a0621a53c059ca8755a146b391057a9cf859
-Section: roothide
+Section: RootHide
 Description: Filza Crack
 Author: Netskao
 Name: Filza Crack
@@ -99,7 +99,7 @@ Size: 1560670
 MD5sum: d87ea15491a8ef1cc253de2928b82413
 SHA1: c18df21f7517a65716a568df44b79038ee22bb5c
 SHA256: 0ed275b9f8b4f8822ce530a0ce81664461bde6c956ecf0478dfea44676233772
-Section: roothide
+Section: RootHide
 Description: Multiple containers for your applications!
 Author: opa334
 Name: Crane
@@ -115,7 +115,7 @@ Size: 15772472
 MD5sum: 6dd93e9af981806b8d27d88a8a68264c
 SHA1: 49904adf368601fa1ff9c8a9079dc1e0bd9e1775
 SHA256: d931e6cdf5a6c18429850a09ac68a818f2629e80f4e3c218f9bbf3e1e8c5eb7a
-Section: roothide
+Section: RootHide
 Description: 微信主题盒子
 Author: Mao
 Name: 主题盒子
@@ -132,7 +132,7 @@ Size: 15842942
 MD5sum: 7d0db603467bcc116b8aef098810da37
 SHA1: ea06c7ca0b50fed7dd748e62bab2002420ef7d3c
 SHA256: b158412fbc16047486eda222ce013fddb6c1c9ec495882f469046eced5f60b12
-Section: roothide
+Section: RootHide
 Description: 微信主题盒子
 Author: Mao
 Name: 主题盒子

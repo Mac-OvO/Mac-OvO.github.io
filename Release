@@ -5,4 +5,5 @@ Version: 1.0
 Codename: stable
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
+Sections: RootHide Rootless          # 新增：声明两个分类
 Description: Mac-OvO Sileo Repository
