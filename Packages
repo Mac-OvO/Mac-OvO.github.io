@@ -14,6 +14,25 @@ Description: Filza Crack
 Author: Netskao
 Name: Filza Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+Package: aweme.x
+Version: 2.3.9-6
+Architecture: iphoneos-arm64e
+Maintainer: 𝙓
+Installed-Size: 10472
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Filename: debs-roothide/aweme.x_2.3.9-6_iphoneos-arm64e.deb
+Size: 9186626
+MD5sum: 041f39a53bbf3a5fb5e004365611d679
+SHA1: de691d197aeba0848653be7ee3e7f549097cf63e
+SHA256: ee84d9c9e3293b18a00a5739b488885cf1d509512924df68f89cbf49046cda48
+Section: RootHide
+Description: 自用
+Author: 𝙓
+Name: 抖音图层
+
 Package: com.25mao.doutu.rootless
 Version: 3.1-7
 Architecture: iphoneos-arm64e
