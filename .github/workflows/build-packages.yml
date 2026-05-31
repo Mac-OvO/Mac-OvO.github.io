@@ -72,7 +72,7 @@ jobs:
               p.write_text("\n\n".join(new_blocks) + "\n")
 
           force_section("Packages-rootless", "Rootless")
-          force_section("Packages-roothide", "roothide")
+          force_section("Packages-roothide", "RootHide")   # 修改点：roothide → RootHide
           PY
 
           cat Packages-rootless Packages-roothide > Packages
@@ -90,6 +90,7 @@ jobs:
           Codename: stable
           Architectures: iphoneos-arm64 iphoneos-arm64e
           Components: main
+          Sections: RootHide Rootless          # 新增：声明两个分类
           Description: Mac-OvO Sileo Repository
           EOF
 
