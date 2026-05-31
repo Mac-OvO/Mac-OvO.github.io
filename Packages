@@ -14,6 +14,24 @@ Description: Filza Crack
 Author: Netskao
 Name: Filza Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+Package: com.25mao.doutu.rootless
+Version: 3.1-7
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs-roothide/com.25mao.doutu.rootless_3.1-7_iphoneos-arm64e.deb
+Size: 2109726
+MD5sum: a176dfbab7ea7df920031a478586b008
+SHA1: 65363c071f38f4c0dbcf6d6e6a76d6257d4c49a0
+SHA256: e05475add36333d7c7b34fe15189f550d14e7c2ab29eed22789e06bae32d623f
+Section: roothide
+Priority: optional
+Description: 斗图助手-Rootless
+Author: Mao
+Name: 斗图助手-Rootless
+Sponsor: admin@25mao.com
+
 Package: com.25mao.miyou.rootless
 Version: 3.9-5
 Architecture: iphoneos-arm64e
@@ -68,6 +86,24 @@ Author: Netskao
 Name: Filza Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
 
+Package: com.opa334.crane
+Version: 1.3.17-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 3252
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs-roothide/com.opa334.crane_1.3.17-2_iphoneos-arm64e.deb
+Size: 1560670
+MD5sum: d87ea15491a8ef1cc253de2928b82413
+SHA1: c18df21f7517a65716a568df44b79038ee22bb5c
+SHA256: 0ed275b9f8b4f8822ce530a0ce81664461bde6c956ecf0478dfea44676233772
+Section: roothide
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane
+
 Package: com.tencent.themebox
 Version: 2.3.4
 Architecture: iphoneos-arm64e
@@ -79,6 +115,23 @@ Size: 15772472
 MD5sum: 6dd93e9af981806b8d27d88a8a68264c
 SHA1: 49904adf368601fa1ff9c8a9079dc1e0bd9e1775
 SHA256: d931e6cdf5a6c18429850a09ac68a818f2629e80f4e3c218f9bbf3e1e8c5eb7a
+Section: roothide
+Description: 微信主题盒子
+Author: Mao
+Name: 主题盒子
+Sponsor: admin@25mao.com
+
+Package: com.tencent.themebox
+Version: 2.3.6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs-roothide/com.tencent.themebox_2.3.6_iphoneos-arm64e.deb
+Size: 15842942
+MD5sum: 7d0db603467bcc116b8aef098810da37
+SHA1: ea06c7ca0b50fed7dd748e62bab2002420ef7d3c
+SHA256: b158412fbc16047486eda222ce013fddb6c1c9ec495882f469046eced5f60b12
 Section: roothide
 Description: 微信主题盒子
 Author: Mao
